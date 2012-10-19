@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Minibbs::Application.config.secret_token = '93cf935840b7caebe3f30f3c49f5cab497f5100bc07b637593b8aba9a6022aa92fdb254ec530e8a0847f0a69625f11bca988a6c06107b0002409632b864ff8bc'
+Minibbs::Application.config.secret_token = 'c4488847500b9189e190eaf3c7226a2788a6bbc8c8c2598178b0ca95a9b69b2ff692548c24a32923862c00deeeedab471d4535944208959c80f20b35222e3cb7'
