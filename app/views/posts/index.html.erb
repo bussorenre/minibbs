@@ -1,0 +1,16 @@
+    <div class="row">
+      <% @posts.each do |post| %>
+      <div class="span12">
+        <h1><%= post.title %></h1>
+        <p><%= post.content %></p>
+        <div>
+          <span class="badge badge-success">Posted <%= post.created_at %></span>
+          <div class="pull-right">
+            <span class="label"><%= link_to 'Edit', edit_post_path(post) %></span>
+            <span class="label"><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></span>
+          </div>
+        </div> 
+        <hr>
+      </div>
+      <% end %>
+    </div>
